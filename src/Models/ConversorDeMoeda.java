@@ -47,7 +47,7 @@ import java.net.http.HttpResponse;
                         .get("bid")
                         .getAsDouble();
 
-                return valor * bid;
+                return valor/bid;
 
             } catch (InterruptedException e) {
                 Thread.currentThread().interrupt();
