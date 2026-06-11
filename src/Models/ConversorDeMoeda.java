@@ -12,12 +12,13 @@ import java.net.http.HttpResponse;
         private final HttpClient client = HttpClient.newHttpClient();
 
         public double converterParaReais(double valor, Pais pais) {
-
-            if (pais.currencies().isEmpty()) {
+            if (pais.currencies() == null || pais.currencies().isEmpty()) {
                 throw new RuntimeException("O país não possui moeda cadastrada.");
             }
 
-            String codigoMoeda = pais.currencies().keySet().iterator().next();
+            // NOVA FORMA: Pega o primeiro item da lista e extrai o 'code' (ex: "JPY")
+            String codigoMoeda = pais.currencies().get(0).code();
+
             String endereco =
                     "https://economia.awesomeapi.com.br/json/last/"
                             + codigoMoeda + "-BRL";
