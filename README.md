@@ -1,5 +1,8 @@
 🌍 Próxima Parada
 
+Vídeo apresentação:
+https://www.linkedin.com/feed/update/urn:li:activity:7473465109479129088/
+
 O Próxima Parada é uma aplicação desenvolvida em Java que simula um assistente de planejamento de viagens internacionais. O sistema integra diferentes APIs externas para fornecer informações completas sobre países, clima e conversão de moedas, gerando também um arquivo JSON com os dados da viagem.
 
 ✨ Funcionalidades
