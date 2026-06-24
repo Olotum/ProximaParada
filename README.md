@@ -111,14 +111,3 @@ Organização de código em camadas simples
 👨‍💻 Autor
 
 Desenvolvido por José Gabriel Santos
-
-Se quiser, posso te ajudar a dar o próximo upgrade nível portfólio forte:
-
-👉 
-transformar isso em README estilo empresa (bem mais impressionante)
-👉 ou 
-revisar sua arquitetura (porque você já está bem perto de um padrão profissional real)
-👉 ou até 
-sugerir como virar um projeto de portfólio para vaga Java backend
-
-Só me fala 👍
